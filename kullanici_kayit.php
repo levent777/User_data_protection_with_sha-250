@@ -29,10 +29,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Kullanıcı Kayıt</title>
+    <title>User Registration</title>
 </head>
 <body>
-    <h1>Kullanıcı Kayıt</h1>
+    <h1>User Registration</h1>
     <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
         <label>Parameter One:</label>
         <input type="text" name="parametre_biri" required><br>
