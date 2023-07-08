@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: home.php");
         exit();
     } else {
-        echo "Giriş başarısız, lütfen bilgilerinizi kontrol edin.";
+        echo "Login failed, please check your information.";
     }
 }
 ?>
