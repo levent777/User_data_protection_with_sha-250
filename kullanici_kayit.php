@@ -34,16 +34,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <h1>Kullanıcı Kayıt</h1>
     <form method="POST" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
-        <label>Parametre Bir:</label>
+        <label>Parameter One:</label>
         <input type="text" name="parametre_biri" required><br>
 
-        <label>Parametre İki:</label>
+        <label>Parameter Two:</label>
         <input type="text" name="parametre_iki" required><br>
 
         <label>Mail:</label>
         <input type="email" name="mail" required><br>
 
-        <input type="submit" value="Kayıt Ol">
+        <input type="submit" value="Register">
     </form>
 </body>
 </html>
