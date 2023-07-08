@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label>Mail:</label>
         <input type="email" name="mail" required><br>
 
-        <input type="submit" value="Giriş Yap">
+        <input type="submit" value="Login">
     </form>
 </body>
 </html>
