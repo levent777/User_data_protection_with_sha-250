@@ -1,4 +1,5 @@
 <?php
+//design : leventk@protonmail.com
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $parametre_biri = $_POST["parametre_biri"];
     $parametre_iki = $_POST["parametre_iki"];
