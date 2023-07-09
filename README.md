@@ -14,7 +14,7 @@ If the information is correct, users can login to my site.
 
 You can use the power of SHA256 for all the data you will save to the database.
 
-Run,    Run       Run      Run   Run   Run  
+Run,
 no need to create a new database. database is ready in code.
 - All you have to do is save all the code to localhost where it runs.
 and install sqlite3
